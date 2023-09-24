@@ -1,0 +1,89 @@
+
+@media (max-width:1024px)
+{
+    .responsive-div {
+        height: 2800px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        background-color: white;
+    }
+    header
+    {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+
+/* Media query for tablets and larger screens (greater than or equal to 480px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .responsive-div {
+        font-size: 20px;
+    }
+    body {
+        background-color:white;
+    }
+}
+
+
+
+
+/* Media query for mobile devices (less than 480px) */
+@media only screen and (max-width: 479px) {
+    .responsive-div {
+        background-color:white;
+    }
+    .ok-image{
+        margin: 0px;
+    }
+
+    /* Additional mobile-specific styles can be added here */
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile) */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .ok-image{
+        margin: 5px;
+    }
+}
+
+@media (min-width:980px)and(max-width:1100px)
+{
+    .responsive-div {
+        height: 3900px;
+        background-color: black;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        background-color: black;
+    }
+    header
+    {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+
+}

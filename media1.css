@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px; 
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Logo styles */
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Default styles for all screen sizes */
+.responsive-div {
+    height: 750px;
+    background-color: #f0f6fa;
+    box-shadow: 0px 0px 5px 5px slategray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style for h1 inside responsive-div */
+.responsive-div h1 {
+    font-size: 3rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-variant: normal;
+}
+
+/* CSS for a border and box shadow */
+.ok-image {
+    border: 2px solid #007bff;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    height: 300px;
+}
+

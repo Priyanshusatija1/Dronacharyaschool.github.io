@@ -1,11 +1,22 @@
-
 @media (max-width:1024px)
 {
+    .responsive-div  h1{
+        color: white;
+    }
     .responsive-div {
-        height: 2800px;
+
+        height: 3400px;
         font-size: 20px;
+        color: white;
         display: flex;
+    background-color:#51656e;
         flex-direction: column;
+        align-items: center;
+    }
+    .ok-image{
+       height: 500px;
+        width: 400px;
+        
     }
     body {
         background-color: white;
@@ -15,6 +26,10 @@
         font-size: 50px;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bolder;
+    }
+    header h1{
+        font-size: 40px;
+        color: white;
     }
 }
 

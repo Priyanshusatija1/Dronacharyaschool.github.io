@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 3000px; 
+ 
 }
 
 /* Header styles */
@@ -78,5 +78,87 @@ nav ul li a:hover {
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
     max-width: 300px;
     height: 300px;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
 }
 
+p{
+    display:inline-block;   
+}
+/*animation related code is start from here */
+
+@keyframes first {
+    0%{
+
+    }
+    20%{
+        transform: translate(30px);
+    }
+    40%{
+        max-width: 200px;
+    }
+    60%{
+        max-width: 250px;
+    }
+    70%{
+        max-width: 300px;
+    }
+}
+
+
+/*this is code for the footer */
+
+
+/* Define styles for the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2); /* Matching box shadow */
+}
+
+/* Style the copyright notice */
+.footer p {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+/* Style the contact information */
+.contact-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444; /* Background color for the contact info section */
+    border-radius: 5px;
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.contact-info ul li {
+    font-size: 20px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+/*adjust id ki css starts from here */
+#adjust
+{
+    border-radius: 30px;
+    width: 50px;
+    height: 60px;
+}

@@ -1,3 +1,4 @@
+
 @media (max-width:1024px)
 {
     .responsive-div  h1{
@@ -300,7 +301,7 @@
     }
 
     .footer p {
-        font-size: 12px;
+        font-size: 18px;
     }
     /* Style the contact information */
 .contact-info {
@@ -311,7 +312,7 @@
 }
 
 .contact-info h3 {
-    font-size: 28px;
+    font-size: 32px;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -323,7 +324,7 @@
 }
 
 .contact-info ul li {
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     margin: 5px 0;
 }
@@ -334,12 +335,29 @@
     border-radius: 30px;
     width: 50px;
     height: 60px;
-}
-}
-
-
-
-
-
 
 }
+
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+

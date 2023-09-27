@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="media2.css">
 
 </head>
-<body onclick="click()">
+<body>
     <header>
         <h1>Dronacharya <b>School</b></h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#main">Gallery</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li onclick="au1()"><a href="#">About Us</a></li>
+                <li onclick="au2()"><a href="#main">Gallery</a></li>
+                <li onclick="au3()"><a href="#c">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -24,46 +24,77 @@
        <h1>Gallery</h1>
     <p id="ok1">
        <!-- Image 1 -->
-       <img src="image1.jpeg"  class="ok-image" alt="Image 1" >
+       <img src="image1.jpg"  class="ok-image" alt="Image 1" >
     </p>
 
 <p id="ok2">       <!-- Image 2 -->
-       <img src="image2.jpeg"  class="ok-image" alt="Image 2">
+       <img src="image2.jpg"  class="ok-image" alt="Image 2">
     </p>
 
 
     <p id="ok3">
        <!-- Image 3 -->
-       <img src="image3.jpeg"  class="ok-image" alt="Image 3">
+       <img src="image3.jpg"  class="ok-image" alt="Image 3">
     </p>
 
     <p id="ok4">
        <!-- Image 4 -->
-       <img src="image4.jpeg" class="ok-image" alt="Image 4">
+       <img src="image4.jpg" class="ok-image" alt="Image 4">
     </p>
 
     <p id="ok5">
        <!-- Image 5 -->
-       <img src="image5.jpeg"  class="ok-image" alt="Image 5">
+       <img src="image5.jpg"  class="ok-image" alt="Image 5">
     </p>
 
     <p id="ok6">
        <!-- Image 6 -->
-       <img src="image6.jpeg" class="ok-image" alt="Image 6">
+       <img src="image6.jpg" class="ok-image" alt="Image 6">
     </p>   
        <!-- Image 5 -->
        <p id="ok7">
-       <img src="image7.jpeg" class="ok-image" alt="Image 5">
+       <img src="IMG-20230924-WA0008.jpg" class="ok-image" alt="Image 5">
     </p>
        <!-- Image 6 -->
        <p id="ok8">
-       <img src="image8.jpeg"  class="ok-image" alt="Image 6">
+       <img src="IMG-20230924-WA0007.jpg"  class="ok-image" alt="Image 6">
     </p>
     </div>
 
     <!-- Rest of your website content goes here -->
     <audio id="run"> <source src="tts_audio_1695661207899.wav"  type="audio/wav"> </audio>
+
     
+
+<br><br><br><br><br id="c"><br>
+
+    <div class="containers" >
+        <h2>Contact Us</h2>
+        <form class="contact-forms" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="load" id="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+
+    <br><br><br><br><br><br>
+
+
     <footer class="footer">
         <div class="container">
             <p>&copy; 2023 Dronacharya Public School, Panipat. All Rights Reserved.</p>
@@ -75,48 +106,67 @@
                     <li>Address: 123 Street, City, Country</li>
                 </ul>
             </div>
-            <p>Designed by <abbr title="Priyanshusatija"><a href="https://example.com"><img src="2.jpeg" alt="Priyanshusatija" id="adjust"></a></abbr></p>
+            <p>Designed by <abbr title="Priyanshusatija"><a href="https://example.com"><img src="2.jpg" alt="Priyanshusatija" id="adjust"></a></abbr></p>
         </div>
     </footer>
+
+
+    <audio src="1695752391823c0kkwlb-voicemaker.in-speech.mp3" type="audio/mp3" id="aa"></audio>
+    <audio src="1695752489770fww5zels-voicemaker.in-speech.mp3" type="audio/mp3" id="bb"></audio>
+    <audio src="1695752450035jzrup4m-voicemaker.in-speech.mp3" type="audio/mp3" id="cc"></audio>
+
+
+
+
 </body>
 <script>
     
 
-    var click=()=>{
-var j=document.getElementById("run")
-j.play();
-}   
+
 
     setInterval(function()
     {
 function start()
 {
-    document.getElementById("ok1").innerHTML='<img src="image6.jpeg"  class="ok-image" alt="Image 6">';
-    document.getElementById("ok8").innerHTML='<img src="image1.jpeg"  class="ok-image" alt="Image 1" >';
-    document.getElementById("ok2").innerHTML= '<img src="image4.jpeg" class="ok-image" alt="Image 5">'
-    document.getElementById("ok7").innerHTML='<img src="image7.jpeg"  class="ok-image" alt="Image 2">';
-    document.getElementById("ok3").innerHTML='<img src="image8.jpeg" class="ok-image" alt="Image 6">'; 
-    document.getElementById("ok6").innerHTML='<img src="image3.jpeg"  class="ok-image" alt="Image 3">';
-    document.getElementById("ok4").innerHTML='<img src="image5.jpeg" class="ok-image" alt="Image 4">';
-    document.getElementById("ok5").innerHTML=' <img src="image4.jpeg"  class="ok-image" alt="Image 5">';
+    document.getElementById("ok1").innerHTML='<img src="IMG-20230924-WA0007.jpg"  class="ok-image" alt="Image 6">';
+    document.getElementById("ok8").innerHTML='<img src="image1.jpg"  class="ok-image" alt="Image 1" >';
+    document.getElementById("ok2").innerHTML= '<img src="IMG-20230924-WA0008.jpg" class="ok-image" alt="Image 5">'
+    document.getElementById("ok7").innerHTML='<img src="image4.jpg"  class="ok-image" alt="Image 2">';
+    document.getElementById("ok3").innerHTML='<img src="image6.jpg" class="ok-image" alt="Image 6">'; 
+    document.getElementById("ok6").innerHTML='<img src="image3.jpg"  class="ok-image" alt="Image 3">';
+    document.getElementById("ok4").innerHTML='<img src="image5.jpg" class="ok-image" alt="Image 4">';
+    document.getElementById("ok5").innerHTML=' <img src="image4.jpg"  class="ok-image" alt="Image 5">';
 }
 setTimeout(start,4000);
 
 function start2()
 {
-    document.getElementById("ok8").innerHTML='<img src="image7.jpeg"  class="ok-image" alt="Image 6">';
-    document.getElementById("ok1").innerHTML='<img src="image1.jpeg"  class="ok-image" alt="Image 1" >';
-    document.getElementById("ok7").innerHTML= '<img src="image5.jpeg" class="ok-image" alt="Image 5">'
-    document.getElementById("ok2").innerHTML='<img src="image4.jpeg"  class="ok-image" alt="Image 2">';
-    document.getElementById("ok6").innerHTML='<img src="image8.jpeg" class="ok-image" alt="Image 6">'; 
-    document.getElementById("ok3").innerHTML='<img src="image3.jpeg"  class="ok-image" alt="Image 3">';
-    document.getElementById("ok5").innerHTML='<img src="image5.jpeg" class="ok-image" alt="Image 4">';
-    document.getElementById("ok4").innerHTML=' <img src="image4.jpeg"  class="ok-image" alt="Image 5">';
+    document.getElementById("ok8").innerHTML='<img src="IMG-20230924-WA0007.jpg"  class="ok-image" alt="Image 6">';
+    document.getElementById("ok1").innerHTML='<img src="image1.jpg"  class="ok-image" alt="Image 1" >';
+    document.getElementById("ok7").innerHTML= '<img src="IMG-20230924-WA0008.jpg" class="ok-image" alt="Image 5">'
+    document.getElementById("ok2").innerHTML='<img src="image4.jpg"  class="ok-image" alt="Image 2">';
+    document.getElementById("ok6").innerHTML='<img src="image6.jpg" class="ok-image" alt="Image 6">'; 
+    document.getElementById("ok3").innerHTML='<img src="image3.jpg"  class="ok-image" alt="Image 3">';
+    document.getElementById("ok5").innerHTML='<img src="image5.jpg" class="ok-image" alt="Image 4">';
+    document.getElementById("ok4").innerHTML=' <img src="image4.jpg"  class="ok-image" alt="Image 5">';
 }
 setTimeout(start2,6000);
 },8000)
 
+/*about us function*/
+function au1(){
+    document.getElementById("aa").play();
+}
 
-
+/*contact us*/
+function au2()
+{
+    document.getElementById("bb").play();
+}
+/*contact us*/
+function au3()
+{
+    document.getElementById("cc").play();
+}
 </script>
 </html>

@@ -216,6 +216,23 @@ textarea {
 }
 
 
+/*forrun id ki css starts from here */
+#forrun{
+    width: 130px;
+    border: 1px solid black;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px silver;
+}
+#forrun:hover {
+    color:blue;
+    font-display:revert;
+    font-size:16px;
+    font-style:italic;
+}
 
 
 
@@ -292,26 +309,3 @@ textarea {
         .image-caption {
             font-style: italic;
         }
-
-
-
-
-/*forrun id ki css starts from here */
-#forrun{
-    width: 130px;
-    border: 1px solid black;
-    height: 30px;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    box-sizing: border-box;
-    box-shadow: 0px 0px 5px 2px silver;
-}
-#forrun:hover {
-    color:blue;
-    font-display:revert;
-    font-size:16px;
-    font-style:italic;
-}
-
-

@@ -4,6 +4,14 @@
     <title>Website Header</title>
     <link rel="stylesheet" href="media1.css">
     <link rel="stylesheet" href="media2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){    
+    $("#forrun").click(function(){    
+        $(".responsive-divs").toggle();    
+    });    
+});    
 
 </head>
 <body>
@@ -60,6 +68,43 @@
        <img src="image8.jpg"  class="ok-image" alt="Image 6">
     </p>
     </div>
+<button id="forrun">Celebration</button>
+<br><br>
+
+
+    
+
+<!-- This for the dynamic toogle function -->
+<div class="responsive-divs">
+       <p>
+        <video src="video2.mp4" controls id="b1"></video><br>
+        Festival celebrate with lots of funny
+      </p>
+      &nbsp;      &nbsp;      &nbsp;      &nbsp;
+      <p>
+        <video src="video3.mp4" controls id="b2"></video><br>
+        Festival of Ganasha Chaturthi
+      </p>
+      &nbsp;      &nbsp;      &nbsp;      &nbsp;
+      <p>
+        <img src="image9.jpg" alt="" id="b3"> 
+      </p>
+      &nbsp;      &nbsp;      &nbsp;      &nbsp;
+      <p>
+        <img src="image10.jpg" alt="" id="b4">
+        &nbsp;      &nbsp;      &nbsp;      &nbsp;
+      </p>
+      <p>
+        <img src="image11.jpg" alt="" id="b3"> 
+      </p>
+      &nbsp;      &nbsp;      &nbsp;      &nbsp;
+      <p>
+        <img src="image12.jpg" alt="" id="b4">
+      </p>
+      &nbsp;      &nbsp;      &nbsp;      &nbsp;
+                        
+</div>
+
 
     <!-- Rest of your website content goes here -->
     <audio id="run"> <source src="tts_audio_1695661207899.wav"  type="audio/wav"> </audio>
@@ -94,7 +139,24 @@
 
     <br><br><br><br><br><br>
 
+  <div  id="aboutme" class="infrastructure-container">
+        <h2>Infrastructure</h2>
+        <div>
+            <figure>
+                <img class="infrastructure-image" src="your-infrastructure-image1.jpg" alt="Infrastructure Image 1">
+                <figcaption class="image-caption">Caption for Image 1.</figcaption>
+            </figure>
+            <figure>
+                <img class="infrastructure-image" src="your-infrastructure-image2.jpg" alt="Infrastructure Image 2">
+                <figcaption class="image-caption">Caption for Image 2.</figcaption>
+            </figure>
+            <!-- Add more <figure> elements as needed for additional images -->
+        </div>
+    </div>
+    <br><br><br><br><br><br>
 
+
+    
     <footer class="footer">
         <div class="container">
             <p>&copy; 2023 Dronacharya Public School, Panipat. All Rights Reserved.</p>

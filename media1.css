@@ -214,3 +214,104 @@ textarea {
 .submit-btn:hover {
     background-color: #0056b3;
 }
+
+
+
+
+
+
+
+
+
+
+ /* Base styles for the div */
+ .responsive-divs {
+    
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #333; /* Border property */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+    flex-wrap: wrap;
+}
+
+
+/*id b1 ki css start from here */
+
+#b1{
+    width: 300px;
+    height: 300px;
+}
+
+
+/*id b2 ki css start from here */
+
+#b2{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/*id b4 ki css start from here */
+
+#b4{
+    width: 300px;
+    height: 300px;
+}
+
+
+/*id b3 ki css start from here */
+
+#b3{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+        /* Base styles for the container */
+        .infrastructure-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Base styles for the image */
+        .infrastructure-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Base styles for the caption */
+        .image-caption {
+            font-style: italic;
+        }
+
+
+
+
+/*forrun id ki css starts from here */
+#forrun{
+    width: 130px;
+    border: 1px solid black;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px silver;
+}
+#forrun:hover {
+    color:blue;
+    font-display:revert;
+    font-size:16px;
+    font-style:italic;
+}
+
+

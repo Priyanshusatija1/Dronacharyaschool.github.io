@@ -7,11 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
 
-$(document).ready(function(){    
-    $("#forrun").click(function(){    
-        $(".responsive-divs").toggle();    
-    });    
-});    
+        $(document).ready(function () {
+            $("#forrun").click(function () {
+                $(".responsive-divs").show();
+            });
+        });
+
+
+
+
+        $(document).ready(function () {
+            $("#forruns").click(function () {
+                $(".responsive-divs").hide();
+            });
+        });
+
+    
 </script>
 </head>
 <body>
@@ -79,7 +90,8 @@ $(document).ready(function(){
 
 
 <!-- -->
-<button id="forrun">Celebration</button>
+    <button id="forrun">See More </button>      <button  id="forruns" >Back</button>
+
 <br><br>
 
 

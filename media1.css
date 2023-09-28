@@ -327,9 +327,4 @@ textarea {
     font-size:16px;
     font-style:italic;
 }
-header ul {
-    display:flex;
-   flex-direction:column;
-   flex-wrap:wrap;
-   line-height:120px;
-}
+

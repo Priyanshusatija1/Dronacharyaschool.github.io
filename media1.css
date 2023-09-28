@@ -328,3 +328,38 @@ textarea {
     font-style:italic;
 }
 
+
+/* Basic styling for the div */
+.home {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    height: 500px;
+
+
+}
+
+.home p{
+    font-size: 40px;
+    color: black;
+}
+.home{
+    background-color:rgb(196, 151, 219); /* Background color for the contact info section */
+}
+
+
+@keyframes  forhome {
+    0%{
+
+    }
+    20%{
+        color: gray;
+        font-size:80px;
+        font-family:fantasy
+    }
+}

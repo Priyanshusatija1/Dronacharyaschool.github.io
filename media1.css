@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 body{
- 
+  background-image: url("secondoptionofbackground.jpg"); 
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:  rgb(76, 78, 143);
+        color: #fff;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -58,6 +58,7 @@ nav ul li a:hover {
     color: white;
     padding: 20px;
     text-align: center;
+    
     font-size: 24px;
 }
 
@@ -124,11 +125,13 @@ p{
 
 /* Style the copyright notice */
 .footer p {
-    margin: 0;
+     margin: 0px;
     font-size: 30px;
 }
 
-
+.footer img{
+    margin: 5px;
+}
 /* Style the contact information */
 .contact-info {
     margin-top: 20px;
@@ -223,12 +226,16 @@ textarea {
     height: 30px;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    position: relative;
+    top:30px;
+    left: 380px;
     box-sizing: border-box;
     box-shadow: 0px 0px 5px 2px silver;
+    background-color:black;
+    color:white;
+    margin: 20px;
 }
 #forrun:hover {
-    color:blue;
     font-display:revert;
     font-size:16px;
     font-style:italic;
@@ -243,7 +250,6 @@ textarea {
 
  /* Base styles for the div */
  .responsive-divs {
-    
     background-color: #333;
     color: white;
     padding: 20px;
@@ -253,6 +259,7 @@ textarea {
     border-radius: 10px; /* Border radius */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
     flex-wrap: wrap;
+    display: none;
 }
 
 
@@ -305,51 +312,81 @@ textarea {
             height: auto;
         }
 
+        /*.infrastructure-container ke ander ke h2 ki css starts from here */
+        .infrastructure-container h2{
+            font-size: 40px;
+        }
+
         /* Base styles for the caption */
         .image-caption {
             font-style: italic;
         }
 
+
+
+
+
         /*forruns id ki css starts from here */
 #forruns{
+    margin: 20px;
+    top:30px;
     width: 130px;
     border: 1px solid black;
     height: 30px;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    position: relative;
+    left: 400px;
+    background-color:black;
+    color:white;
     box-sizing: border-box;
     box-shadow: 0px 0px 5px 2px silver;
 }
 #forruns:hover {
-    color:blue;
     font-display:revert;
     font-size:16px;
     font-style:italic;
 }
 
 
+
+
+
+
+/*this code ko copy krna hai*/
+
+
+
 /* Basic styling for the div */
 .home {
-    background-color: #3498db;
     color: #fff;
     padding: 20px;
     text-align: center;
-    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 20px;
-    height: 500px;
+    height: 480px;
+
 
 
 }
+
+/*this code ko copy krna hai*/
 
 .home p{
     font-size: 40px;
-    color: black;
+    color: white;
 }
 .home{
-    background-color:rgb(196, 151, 219); /* Background color for the contact info section */
+    background-color:  rgb(76, 78, 143);
+
+     /* Background color for the contact info section */
+
+     animation-duration: 3s;
+     animation-delay: 4s;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode:none;
+     animation-iteration-count: infinite;
 }
 
 
@@ -358,8 +395,82 @@ textarea {
 
     }
     20%{
-        color: gray;
+        color: white;
         font-size:80px;
-        font-family:fantasy
+        font-family:fantasy;
+        background-color: white;
     }
 }
+
+
+
+/* Define the droo for the droplets */
+.droo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* Define the bro for the droplets */
+
+.bro {
+    width: 45%;
+    height: 200px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.video-container {
+    width: 50%; /* Adjust this value to change the width of the video */
+    height: auto; /* This value will automatically adjust the height based on the aspect ratio of the video */
+    position:relative;
+    left:200px;
+}
+
+
+
+
+
+/*#forseemoreslide id ke code of means button ke code */
+#forseemoreslide {
+    /* Basic Button Styles */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    /* Responsive Styles */
+    /* Adjust font size and padding for smaller screens */
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    /* Adjust font size and padding for even smaller screens */
+    @media (max-width: 480px) {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  
+
+  #panel{
+    display: none   ;
+  }
+
+
+
+
+
+  

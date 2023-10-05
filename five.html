@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #ok{
+        border: 2px solid black;
+        width: 700px;
+        height: 200px;
+    }
+    #divsecond{
+        border: 2px solid black;
+        width: 600px;
+        margin: auto;
+        height: 100px;
+        display: none;
+    }
+</style>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<body>
+    <script>
+      $(document).ready(function()
+      {
+        $("#button").click(function()
+        {
+            $("#ok").slideToggle();
+        })
+      })
+
+      $(document).ready(function()
+      {
+        $("#okfirst").click(function()
+        {
+            $("#divsecond").slideToggle();
+        })
+      })
+    </script>
+<div id="ok"> <button id="okfirst">click on it</button> <div id="divsecond"></div></div>
+<button id="button">Click it </button>
+</body>
+</html> 

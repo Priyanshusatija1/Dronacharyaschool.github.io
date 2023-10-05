@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        /*this jquery code for the toggle feature of renu mam description */
+        $(document).ready(function()
+        {
+            $(".infrastructure-image").mouseover(function()
+            {
+                $("#moveable").slideToggle();
+            })
+        })
+
+
+
+
+
+          /*this jquery code for the toggle feature of renu mam description */
+          $(document).ready(function()
+        {
+            $(".infrastructure-images").mouseover(function()
+            {
+                $("#moveables").slideToggle();
+            })
+        })
+    </script>
+    <style>
+        .droo {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            flex-direction: column;
+            justify-content: space-around;
+
+        }
+        #moveables{
+            display: none;
+        font-size: 20px;
+        }
+         .bro h2{
+            font-size: 30px;
+        } 
+
+#moveable{
+    display: none;
+    font-size: 20px;
+}
+        .bro {
+            background-image: url("daro1.jpeg");
+            background-repeat:no-repeat;
+            background-size: 600px 500px;
+            height: 700px;
+            width: 45%;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .bro {
+                width: 100%;
+            }
+        }
+        
+        .infrastructure-image {
+            height: 300px;
+            width: 200px;
+        }
+
+        .infrastructure-images {
+            height: 300px;
+            width: 200px;
+        }
+
+figcaption{
+    font-size: 30px ;
+}
+      @media  (max-width:1024px) 
+      {
+        .infrastructure-image {
+    width: 200px; /* or use a specific percentage in vw like 33.33vw */
+    height: auto; /* maintain aspect ratio */
+}
+.infrastructure-images {
+    width: 200px; /* or use a specific percentage in vw like 33.33vw */
+    height: auto; /* maintain aspect ratio */
+}
+      } 
+      @media  (max-width:1024px) 
+      {
+        #moveable {
+    width: 180px; /* or use a specific percentage in vw like 33.33vw */
+    height: auto; /* maintain aspect ratio */
+    font-size: 10px;
+}
+      } 
+    </style>
+    <script>
+        function change1()
+        {
+  var j=document.getElementById("change1").innerHTML;
+  if(j=="Change in English")
+  {
+    document.getElementById("changeinit").innerHTML="Daroncharya Public School, under the able leadership of its Principal, Mrs. Renu, stands as a beacon of excellence in the field of education. The institution prides itself on a set of core principles that guide its management, faculty, and students towards the path of holistic development and academic brilliance."; 
+    document.getElementById("change1").innerHTML="Change in Hindi";
+  }
+  if(j=="Change in Hindi")
+  {
+    document.getElementById("changeinit").innerHTML="महान प्राध्यापिका, मिसेज़ रेणु के नेतृत्व में, दारोंचार्य पब्लिक स्कूल शिक्षा के क्षेत्र में उत्कृष्टता की ओर मुखर है। संस्थान वही सेट के मूल सिद्धांतों पर गर्व करता है जो उसके प्रबंधन, शिक्षकों, और छात्रों को संपूर्ण विकास और शैक्षिक प्रतिष्ठा की ओर मार्गदर्शन करते हैं।"
+    document.getElementById("change1").innerHTML="Change in English";
+  }
+        }
+
+
+
+
+
+
+        function change2()
+        {
+  var j=document.getElementById("change2").innerHTML;
+  if(j=="Change in English")
+  {
+    document.getElementById("changeinits").innerHTML="Daroncharya Public School, under the able leadership of its Principal, Mrs. Renu, stands as a beacon of excellence in the field of education. The institution prides itself on a set of core principles that guide its management, faculty, and students towards the path of holistic development and academic brilliance."; 
+    document.getElementById("change2").innerHTML="Change in Hindi";
+  }
+  if(j=="Change in Hindi")
+  {
+    document.getElementById("changeinits").innerHTML="महान प्राध्यापिका, मिसेज़ रेणु के नेतृत्व में, दारोंचार्य पब्लिक स्कूल शिक्षा के क्षेत्र में उत्कृष्टता की ओर मुखर है। संस्थान वही सेट के मूल सिद्धांतों पर गर्व करता है जो उसके प्रबंधन, शिक्षकों, और छात्रों को संपूर्ण विकास और शैक्षिक प्रतिष्ठा की ओर मार्गदर्शन करते हैं।"
+    document.getElementById("change2").innerHTML="Change in English";
+  }
+        }
+    </script>
+</head>
+<body>
+    <div class="droo">
+        <div class="bro">
+            <h2>Principal of Daronacharya Public School</h2>
+            <figure>
+                <img class="infrastructure-image" src="edit1.jpg" alt="Infrastructure Image 1"><br><br>
+                <figcaption class="image-caption">Mrs Renu Deshwal </figcaption>
+            </figure>
+        <br>    
+            <div id="moveable">
+            <p id="changeinit">Daroncharya Public School, under the able leadership of its Principal, Mrs. Renu, stands as a beacon of excellence in the field of education. The institution prides itself on a set of core principles that guide its management, faculty, and students towards the path of holistic development and academic brilliance.</p>
+           
+       <button id="change1" onclick="change1()">Change in Hindi</button>
+        </div>
+
+        </div>
+
+
+        <div class="bro">
+            <h2>About Staff </h2>
+                <img class="infrastructure-images" src="edit1.jpg" alt="Infrastructure Image 1"><br><br>
+        <br>    
+            <div id="moveables">
+            <p id="changeinits">Daroncharya Public School, under the able leadership of its Principal, Mrs. Renu, stands as a beacon of excellence in the field of education. The institution prides itself on a set of core principles that guide its management, faculty, and students towards the path of holistic development and academic brilliance.</p>
+           
+       <button id="change2" onclick="change2()">Change in Hindi</button>
+        </div>    
+        </div>
+    </div>
+
+
+
+    
+    <div class="bro">
+        <h2>About Staff </h2>
+            <img class="infrastructure-images" src="image1.jpg" alt="Infrastructure Image 1"><br><br>
+    <br>    
+        <div id="moveables">
+        <p id="changeinits">Daroncharya Public School, under the able leadership of its Principal, Mrs. Renu, stands as a beacon of excellence in the field of education. The institution prides itself on a set of core principles that guide its management, faculty, and students towards the path of holistic development and academic brilliance.</p>
+       
+   <button id="change2" onclick="change2()">Change in Hindi</button>
+    </div>    
+    </div>
+</div>
+</body>
+</html>

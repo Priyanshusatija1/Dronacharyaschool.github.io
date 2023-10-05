@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>  
+$(document).ready(function(){  
+    $("#ok").click(function(){  
+        $("h1").hide();  
+    });  
+});  
+$(document).ready(function()
+{
+    $("#oks").mouseover(function()
+    {
+       $("h1").show();
+    })
+})
+
+$(document).ready(function()
+{
+    $(".c").click(function()
+    {
+        $("div.d").toggle();
+    })
+})
+</script>
+<style>
+    div{
+        width: 500px;
+        height: 500px;
+        border: 3px solid black;
+    }
+</style>
+</head>
+<body>
+    <h1>Priyanshusatija are doing the jquery </h1>
+    <button id="ok">Click for hide</button>
+    <button id="oks">Click for show</button>
+    <div class="d">
+
+    </div>
+    <button class=".c">ok</button>
+</body>
+</html>

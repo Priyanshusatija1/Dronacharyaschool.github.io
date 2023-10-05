@@ -342,8 +342,9 @@
 
 /* Add media queries for responsiveness */
 @media (max-width: 1024px) {
-    .container {
-        max-width: 100%;
+    .containers {
+        max-width:800px;
+    background-color: blue;
     }
 }
 
@@ -387,8 +388,8 @@
             .infrastructure-container {
                 padding: 10px;
             }
-
-            #forruns{
+                /*forruns id ki css starts from here */
+#forruns{
     width: 130px;
     border: 1px solid black;
     height: 30px;
@@ -408,15 +409,64 @@ header ul {
     display:flex;
    flex-direction:column;
    flex-wrap:wrap;
-   line-height:120px;
+   line-height:70px;
+   font-size:42px;
 }
-            
-/* Add media queries for responsiveness */
+        
+        }
+
+
+/*this code ko copy krna hai*/
+
+/* home CSS */
 @media (max-width: 1024px) {
-    .home{
-        max-width: 100%;
+    .home {
+        padding: 10px;
+    }
+    .forrun{
+        margin:30px;
     }
 }
 
 
+
+
+        
+/* Define the bro for the droplets */
+
+@media screen and (max-width: 768px) {
+    .bro {
+        width: 100%;
+    }
 }
+
+
+
+/*#forseemoreslide id ke code of means button ke code */
+#forseemoreslide {
+    /* Basic Button Styles */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    /* Responsive Styles */
+    /* Adjust font size and padding for smaller screens */
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    /* Adjust font size and padding for even smaller screens */
+    @media (max-width: 480px) {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  

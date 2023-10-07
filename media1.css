@@ -419,6 +419,7 @@ textarea {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     padding: 20px;
+    font-size:20px;
     box-sizing: border-box;
 }
 
@@ -426,8 +427,7 @@ textarea {
 
 
 .video-container {
-    width: 50%; /* Adjust this value to change the width of the video */
-    height: auto; /* This value will automatically adjust the height based on the aspect ratio of the video */
+    width:600px; /* Adjust this value to change the width of the video */
     position:relative;
     left:200px;
 }
@@ -473,4 +473,11 @@ textarea {
 
 
 
-  
+  #changeaimage{
+    width: 90px;
+    height: 90px;
+}  
+
+.infrastructure-image{
+    width: 200px;
+}

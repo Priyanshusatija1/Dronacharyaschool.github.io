@@ -1,138 +1,309 @@
-/* Reset some default styles */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-  background-image: url("secondoptionofbackground.jpg"); 
-}
 
-/* Header styles */
-header {
-    background-color:  rgb(76, 78, 143);
-        color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
+@media (max-width:1024px)
+{
+    .responsive-div  h1{
+        color:black;
+    }
+    .responsive-div {
 
-/* Logo styles */
-h1 {
-    margin: 0;
-    font-size: 40px;
-}
+        height: 7000px;
+        font-size: 20px;
+        color: white;
+        display: flex;
 
-/* Navigation menu styles */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Default styles for all screen sizes */
-.responsive-div {
-    height: 750px;
-    background-color: #f0f6fa;
-    box-shadow: 0px 0px 5px 5px slategray;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    
-    font-size: 24px;
-}
-
-/* Style for h1 inside responsive-div */
-.responsive-div h1 {
-    font-size: 3rem;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
-    font-variant: normal;
-}
-
-/* CSS for a border and box shadow */
-.ok-image {
-    border: 2px solid #007bff;
-    margin: 20px;
-    padding: 5px;
-    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
-    max-width: 300px;
-    height: 300px;
-    animation-name: first;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ok-image{
+       height: 700px;
+        max-width: 650px;
+        
+    }
+    body {
+        background-color: white;
+    }
+    header
+    {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    header h1{
+        font-size: 60px;
+        color: white;
+    }
+    #ok1{
+        animation-name: oks;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: 4000ms;
+        animation-fill-mode: none;
+    }
+    #ok2{
+        animation-name: okss;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-delay: 4000ms;
     animation-fill-mode: none;
-}
+    }
+    #ok3{
+        animation-name:oksss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
+    #ok4{
+        animation-name:okssss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
+    #ok5{
+        animation-name:oksssss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
+    #ok6{
+        animation-name:okssssss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
+    #ok7{
+        animation-name:oksssssss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
+    #ok8{
+        animation-name:okssssssss;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4000ms;
+    animation-fill-mode: none;
+    }
 
-p{
-    display:inline-block;   
-}
-/*animation related code is start from here */
+
+
+    /*animation related code is start from here */
 
 @keyframes first {
     0%{
 
     }
     20%{
-        transform: translate(30px);
     }
     40%{
-        max-width: 200px;
     }
     60%{
-        max-width: 250px;
     }
     70%{
-        max-width: 300px;
+    }
+    100%{
     }
 }
 
 
-/*this is code for the footer */
+@keyframes oks {
+    0%{
 
+    }
+    50%{
+        transform: translate(50px);
+    }
+    100%{
+        transform: translate(-50px);
+    }
 
-/* Define styles for the footer */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2); /* Matching box shadow */
 }
 
-/* Style the copyright notice */
-.footer p {
-     margin: 0px;
-    font-size: 30px;
+@keyframes okss {
+    0%{
+
+    }
+    50%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(50px);
+    }
+
+}
+@keyframes oksss {
+    0%{
+
+    }
+    50%{
+        transform: translate(50px);
+    }
+    100%{
+        transform: translate(-50px);
+    }
+
 }
 
-.footer img{
-    margin: 5px;
+
+
+@keyframes okssss {
+    0%{
+
+    }
+    50%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(50px);
+    }
+
 }
-/* Style the contact information */
+
+
+@keyframes oksssss {
+    0%{
+
+    }
+    50%{
+        transform: translate(50px);
+    }
+    100%{
+        transform: translate(-50px);
+    }
+}
+
+@keyframes okssssss {
+    0%{
+
+    }
+    50%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(50px);
+    }
+
+}
+@keyframes oksssssss {
+    0%{
+
+    }
+    50%{
+        transform: translate(50px);
+    }
+    100%{
+        transform: translate(-50px);
+    }
+
+}
+@keyframes okssssssss {
+    0%{
+
+    }
+    50%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(50px);
+    }
+
+}
+}
+
+
+
+
+
+
+/* Media query for tablets and larger screens (greater than or equal to 480px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .responsive-div {
+        font-size: 20px;
+    }
+    body {
+        background-color:white;
+    }
+}
+
+
+
+
+/* Media query for mobile devices (less than 480px) */
+@media only screen and (max-width: 479px) {
+    .responsive-div {
+        background-color:white;
+    }
+    .ok-image{
+        margin: 0px;
+    }
+
+    /* Additional mobile-specific styles can be added here */
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile) */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .ok-image{
+        margin: 5px;
+    }
+}
+
+@media (min-width:980px)and(max-width:1100px)
+{
+    .responsive-div {
+        height: 3900px;
+        background-color: black;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        background-color: black;
+    }
+    header
+    {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+
+
+
+    /*this code is for the footer responsive */
+    /* Add responsive styles */
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+    /* Style the contact information */
 .contact-info {
     margin-top: 20px;
     padding: 10px;
@@ -141,7 +312,7 @@ p{
 }
 
 .contact-info h3 {
-    font-size: 28px;
+    font-size: 32px;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -153,7 +324,7 @@ p{
 }
 
 .contact-info ul li {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     margin: 5px 0;
 }
@@ -164,81 +335,25 @@ p{
     border-radius: 30px;
     width: 50px;
     height: 60px;
+
+}
+
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 1024px) {
+    .containers {
+        max-width:800px;
+    background-color: blue;
+    }
+    .bro{
+        font-size:30px; 
+    }
 }
 
 
 
 
-/*The code is related to the form tag */
-
-  /* Style the container */
-  .containers {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 20px 2px rgba(61, 42, 42, 0.1);
-}
-
-/* Style the form */
-.contact-forms {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Style the form inputs and labels */
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input[type="text"],
-textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Style the submit button */
-.submit-btn {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Style the submit button on hover */
-.submit-btn:hover {
-    background-color: #0056b3;
-}
-
-
-/*forrun id ki css starts from here */
-#forrun{
-    width: 130px;
-    border: 1px solid black;
-    height: 30px;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    top:30px;
-    left: 380px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 5px 2px silver;
-    background-color:black;
-    color:white;
-    margin: 20px;
-}
-#forrun:hover {
-    font-display:revert;
-    font-size:16px;
-    font-style:italic;
 }
 
 
@@ -246,193 +361,96 @@ textarea {
 
 
 
-
-
- /* Base styles for the div */
- .responsive-divs {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    border: 2px solid #333; /* Border property */
-    border-radius: 10px; /* Border radius */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
-    flex-wrap: wrap;
-    display: none;
-}
-
-
-/*id b1 ki css start from here */
-
-#b1{
-    width: 300px;
-    height: 300px;
-}
-
-
-/*id b2 ki css start from here */
-
-#b2{
-    width: 300px;
-    height: 300px;
 }
 
 
 
-/*id b4 ki css start from here */
+/* Responsive CSS for different screen sizes */
+@media (max-width: 1024x) {
+    /* Adjust the styles for screens up to 768px wide */
+    .responsive-divs {
+        font-size: 18px;
+        border-radius: 8px; /* Adjust border radius */
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Adjust box shadow */
+    }
+}
 
-#b4{
-    width: 300px;
-    height: 300px;
+@media (max-width: 480px) {
+    /* Adjust the styles for screens up to 480px wide */
+    .responsive-divs {
+        font-size: 16px;
+        border-radius: 6px; /* Adjust border radius */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+    }
 }
 
 
-/*id b3 ki css start from here */
 
-#b3{
-    width: 300px;
-    height: 300px;
-}
-
-
-
-
-
-        /* Base styles for the container */
-        .infrastructure-container {
-            text-align: center;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-
-        /* Base styles for the image */
-        .infrastructure-image {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /*.infrastructure-container ke ander ke h2 ki css starts from here */
-        .infrastructure-container h2{
-            font-size: 40px;
-        }
-
-        /* Base styles for the caption */
-        .image-caption {
-            font-style: italic;
-        }
-
-
-
-
-
-        /*forruns id ki css starts from here */
+        /* Media query for screens smaller than 768px (adjust as needed) */
+        @media screen and (max-width: 1024px) {
+            .infrastructure-container {
+                padding: 10px;
+            }
+                /*forruns id ki css starts from here */
 #forruns{
-    margin: 20px;
-    top:30px;
     width: 130px;
     border: 1px solid black;
     height: 30px;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    left: 400px;
-    background-color:black;
-    color:white;
+
     box-sizing: border-box;
     box-shadow: 0px 0px 5px 2px silver;
 }
 #forruns:hover {
+    color:blue;
     font-display:revert;
     font-size:16px;
     font-style:italic;
 }
-
-
-
-
+header ul {
+    display:flex;
+   flex-direction:column;
+   flex-wrap:wrap;
+   line-height:70px;
+   font-size:42px;
+}
+        
+        }
 
 
 /*this code ko copy krna hai*/
 
-
-
-/* Basic styling for the div */
-.home {
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    height: 480px;
-
-
-
-}
-
-/*this code ko copy krna hai*/
-
-.home p{
-    font-size: 40px;
-    color: white;
-}
-.home{
-    background-color:  rgb(76, 78, 143);
-
-     /* Background color for the contact info section */
-
-     animation-duration: 3s;
-     animation-delay: 4s;
-     animation-timing-function: ease-in-out;
-     animation-fill-mode:none;
-     animation-iteration-count: infinite;
-}
-
-
-@keyframes  forhome {
-    0%{
-
+/* home CSS */
+@media (max-width: 1024px) {
+    .home {
+        padding: 10px;
     }
-    20%{
-        color: white;
-        font-size:80px;
-        font-family:fantasy;
-        background-color: white;
+    #changeinit{
+        font-size: 30px;
+    }
+    #changeinits{
+        font-size: 30px;
+    }
+    #changeinitss{
+        font-size: 30px;
+    }
+    .forrun{
+        margin:30px;
     }
 }
 
 
 
-/* Define the droo for the droplets */
-.droo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
+        
 /* Define the bro for the droplets */
 
-.bro {
-    width: 45%;
-    height: 200px;
-    margin: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    padding: 20px;
-    font-size:20px;
-    box-sizing: border-box;
+@media screen and (max-width: 768px) {
+    .bro {
+        width: 100%;
+    }
 }
-
-
-
-
-.video-container {
-    width:600px; /* Adjust this value to change the width of the video */
-    position:relative;
-    left:200px;
-}
-
-
 
 
 
@@ -453,31 +471,18 @@ textarea {
     /* Responsive Styles */
     /* Adjust font size and padding for smaller screens */
     @media (max-width: 1024px) {
-      font-size: 14px;
       padding: 8px 16px;
     }
   
     /* Adjust font size and padding for even smaller screens */
     @media (max-width: 480px) {
-      font-size: 12px;
       padding: 6px 12px;
     }
-  }
+    #changeaimage{
+        width: 50px;
+        height: 50px;
+    }  
+}
   
 
-  #panel{
-    display: none   ;
-  }
 
-
-
-
-
-  #changeaimage{
-    width: 90px;
-    height: 90px;
-}  
-
-.infrastructure-image{
-    width: 200px;
-}

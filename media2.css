@@ -346,6 +346,9 @@
         max-width:800px;
     background-color: blue;
     }
+    .bro{
+        font-size:30px; 
+    }
 }
 
 
@@ -423,6 +426,15 @@ header ul {
     .home {
         padding: 10px;
     }
+    #changeinit{
+        font-size: 30px;
+    }
+    #changeinits{
+        font-size: 30px;
+    }
+    #changeinitss{
+        font-size: 30px;
+    }
     .forrun{
         margin:30px;
     }
@@ -459,14 +471,18 @@ header ul {
     /* Responsive Styles */
     /* Adjust font size and padding for smaller screens */
     @media (max-width: 1024px) {
-      font-size: 14px;
       padding: 8px 16px;
     }
   
     /* Adjust font size and padding for even smaller screens */
     @media (max-width: 480px) {
-      font-size: 12px;
       padding: 6px 12px;
     }
-  }
+    #changeaimage{
+        width: 50px;
+        height: 50px;
+    }  
+}
   
+
+

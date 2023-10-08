@@ -4,6 +4,15 @@
     .responsive-div  h1{
         color:black;
     }
+        #changeinit{
+        font-size: 20px;
+    }
+    #changeinits{
+        font-size: 30px;
+    }
+    #changeinitss{
+        font-size: 30px;
+    }
     .responsive-div {
 
         height: 7000px;
@@ -425,16 +434,9 @@ header ul {
 @media (max-width: 1024px) {
     .home {
         padding: 10px;
+        height: 500px;
     }
-    #changeinit{
-        font-size: 30px;
-    }
-    #changeinits{
-        font-size: 30px;
-    }
-    #changeinitss{
-        font-size: 30px;
-    }
+
     .forrun{
         margin:30px;
     }

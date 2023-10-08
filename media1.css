@@ -96,19 +96,7 @@ p{
     0%{
 
     }
-    20%{
-        transform: translate(30px);
-    }
-    40%{
-        max-width: 200px;
-    }
-    60%{
-        max-width: 250px;
-    }
-    70%{
-        max-width: 300px;
-    }
-}
+}   
 
 
 /*this is code for the footer */

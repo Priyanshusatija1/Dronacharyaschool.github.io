@@ -378,8 +378,7 @@
     .responsive-divs {
         font-size: 18px;
         border-radius: 8px; /* Adjust border radius */
-        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Adjust box shadow */
-    }
+      }
 }
 
 @media (max-width: 480px) {
@@ -410,7 +409,6 @@
     box-shadow: 0px 0px 5px 2px silver;
 }
 #forruns:hover {
-    color:blue;
     font-display:revert;
     font-size:16px;
     font-style:italic;
@@ -437,6 +435,12 @@ header ul {
 
     .forrun{
         margin:30px;
+    }
+    #changeaimage{
+        position: relative;
+        top: 100px;
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -486,3 +490,14 @@ header ul {
   
 
 
+@media screen and (max-width: 1024px) {
+    #change1 {
+        width: 100%;
+    }
+    #change2{
+        width: 30%;
+    }
+    #change3{
+        width: 30%;
+    }
+}

@@ -53,7 +53,6 @@ nav ul li a:hover {
 /* Default styles for all screen sizes */
 .responsive-div {
     height: 750px;
-    background-color: #f0f6fa;
     box-shadow: 0px 0px 5px 5px slategray;
     color: white;
     padding: 20px;
@@ -238,14 +237,13 @@ textarea {
 
  /* Base styles for the div */
  .responsive-divs {
-    background-color: #333;
-    color: white;
+    color: rgb(17, 17, 17);
     padding: 20px;
     text-align: center;
     font-size: 24px;
     border: 2px solid #333; /* Border property */
     border-radius: 10px; /* Border radius */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+    box-shadow: 5px 5px 10px rgb(241, 237, 237); /* Box shadow */
     flex-wrap: wrap;
     display: none;
 }
@@ -402,9 +400,7 @@ textarea {
 
 .bro {
     width: 45%;
-    height: 200px;
     margin: 10px;
-    background-color: #f1f1f1;
     border: 1px solid #ccc;
     padding: 20px;
     font-size:20px;
@@ -468,4 +464,51 @@ textarea {
 
 .infrastructure-image{
     width: 200px;
+}
+
+
+
+/*id change1 ki css starts from here */
+#change1{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:#3339e0;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+/*id change2 ki css starts from here */
+#change2{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:#3339e0;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/*id change3 ki css starts from here */
+#change3{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:#3339e0;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }

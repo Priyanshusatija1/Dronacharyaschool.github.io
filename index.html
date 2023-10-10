@@ -17,8 +17,15 @@
                 $("#moveable").slideToggle();
             })
         })
-
-
+var count=0;
+function school()
+{
+    if(count!=10)
+    {
+    var j=document.getElementById("pp").play();
+count++;
+}
+}
 
 
 
@@ -208,7 +215,7 @@ document.getElementById("change3").innerHTML="Change in English";
 
 </script>
 </head>
-<body>
+<body onclick="school()">
     <header>
         <img src="DronaCharya.ico" alt="" id="changeaimage">
 
@@ -237,6 +244,7 @@ document.getElementById("change3").innerHTML="Change in English";
             
         </p>
         </div>
+        <audio src="school.mp3" id="pp"></audio>
 
 <br><br><br><br>
 <div class="video-container">
